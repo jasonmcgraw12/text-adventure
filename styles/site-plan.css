@@ -1,7 +1,7 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
-@import url('https://fonts.googleapis.com/css2?family=Chokokutai&family=Dancing+Script:wght@400..700&&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chokokutai&family=Dancing+Script:wght@400..700&&family=Shadows+Into+Light&display=swap&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400');
 
 :root {
   /* change the values below to your colors from your palette */
@@ -11,8 +11,8 @@ Fonts are separated by a | */
   --accent2-color: #9de0c7;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Shadows Into Light";
-  --paragraph-font: "Display", Lato, Helvetica, sans-serif;
+  --heading-font: "Shadows Into Light", serif;
+  --paragraph-font: "Old Standard TT", serif, "Dancing Script", "Display", Lato, Helvetica, sans-serif;
   /* Dancing Script is a good handwriting script... Chokokutai is a good native islander script */
 
   /* these colors below should be chosen from among your palette colors above */
