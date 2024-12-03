@@ -44,13 +44,23 @@ nav{
 }
 #Arrival-image{
     width: 100%;
+    margin-bottom: 30px;
 }
 h1{
     text-align: center;
     font-family: "Old Standard TT",Georgia, 'Times New Roman', Times, serif;
 }
+.narration{
+    background-color: #008CC3;
+    border: solid 2px #008CC3;
+}
 .narration-text{
     font-family: "Shadows Into Light", "Dancing Script", 'Times New Roman';
+}
+h2{
+    margin-top: 0;
+    padding: 10px 0 0 10px;
+    font-family: "Old Standard TT",Georgia, 'Times New Roman', Times, serif;
 }
 .choices{
     background-color: #9de0c7;
@@ -71,6 +81,6 @@ h1{
     #Arrival-image{
         display: block;
         width: 75%;
-        margin: 0 auto;
+        margin: 0 auto 30px auto;
     }
 }
