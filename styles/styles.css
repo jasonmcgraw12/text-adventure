@@ -5,12 +5,13 @@ body{
     margin: 0;
     background-color: #1e8940;
 }
+p{
+    padding: 0 20px;
+    text-align: center;
+    font-size: 1.25em;
+}
 .logo{
     width: 100px;
-}
-.socialmedia-icon{
-    width: 64px;
-    height: 64px;
 }
 nav{
     background-color: #008CC3;
@@ -54,6 +55,16 @@ h1{
 .choices{
     background-color: #9de0c7;
     height: 100px;
+}
+.social-media-box{
+    display: flex;
+
+    justify-content: center;
+}
+.socialmedia-icon{
+    width: 64px;
+    height: 64px;
+    margin: 0 20px;
 }
 
 @media (min-width: 900px){
