@@ -1,9 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Chokokutai&family=Dancing+Script:wght@400..700&&family=Shadows+Into+Light&display=swap&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400');
+
+
 body{
     margin: 0;
+    background-color: #1e8940;
 }
 .logo{
     width: 100px;
 }
 .socialmedia-icon{
     width: 64px;
+    height: 64px;
+}
+nav{
+    background-color: #008CC3;
+    display: grid;
+    grid-template-columns: 100px 1fr;
+}
+.logo-hyperlink{
+    width: 100px;
+    height: 100px;
+}
+.ul-centered-children{
+    grid-column-start: 2;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.nav-link{
+    outline: none;
+    padding: 20px;
+    text-decoration: none;
+    border: solid 2px blue;
+    background-color: #9de0c7;
+}
+.nav-link:hover{
+    padding: 18px;
+    border: solid 4px blue;
+}
+#Arrival-image{
+    width: 100%;
+}
+h1{
+    text-align: center;
+    font-family: "Old Standard TT",Georgia, 'Times New Roman', Times, serif;
+}
+.narration-text{
+    font-family: "Shadows Into Light", "Dancing Script", 'Times New Roman';
+}
+.choices{
+    background-color: #9de0c7;
+    height: 100px;
+}
+
+@media (min-width: 900px){
+    #Arrival-image{
+        display: block;
+        width: 75%;
+        margin: 0 auto;
+    }
 }
