@@ -41,15 +41,28 @@ nav{
     padding: 18px;
     border: solid 4px blue;
 }
+#Survival-grid{
+    display: grid;
+    grid-template-columns: 1fr 400px;
+}
 #Arrival-image{
     width: 100%;
+}
+#Survival-image{
+    width: 350px;
+    margin: 0 auto;
 }
 h1{
     text-align: center;
     font-family: "Old Standard TT",Georgia, 'Times New Roman', Times, serif;
 }
+.Survival-h1{
+    text-align: left;
+    padding-left: 20px;
+}
 .narration-text{
     font-family: "Shadows Into Light", "Dancing Script", 'Times New Roman';
+    padding: 20px;
 }
 .choices{
     background-color: #9de0c7;
