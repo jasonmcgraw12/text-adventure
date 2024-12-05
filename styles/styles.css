@@ -48,7 +48,6 @@ nav{
 }
 #Arrival-image{
     width: 100%;
-    margin-bottom: 30px;
 }
 #Survival-image{
     width: 350px;
@@ -99,6 +98,6 @@ h2{
     #Arrival-image{
         display: block;
         width: 75%;
-        margin: 0 auto 30px auto;
+        margin: 0 auto;
     }
 }
