@@ -44,13 +44,15 @@ nav{
 }
 #Survival-grid{
     display: grid;
-    grid-template-columns: 1fr 400px;
+    grid-template-columns: 1fr 750px;
 }
 #Arrival-image{
-    width: 100%;
+    display: block;
+    width: 75%;
+    margin: 0 auto;
 }
 #Survival-image{
-    width: 350px;
+    width: 700px;
     margin: 0 auto;
 }
 h1{
@@ -94,10 +96,14 @@ h2{
     margin: 0 20px;
 }
 
-@media (min-width: 900px){
+@media (max-width: 1000px){
     #Arrival-image{
-        display: block;
-        width: 75%;
-        margin: 0 auto;
+        width: 100%;
+    }
+    #Survival-image{
+        width: 350px;
+    }
+    #Survival-grid{
+        grid-template-columns: 1fr 400px;
     }
 }
