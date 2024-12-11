@@ -10,15 +10,15 @@
 <body>
     <header>
         <nav>
-            <a href="index.html">
+            <a class="logo-hyperlink" href="index.html">
                 <img class="logo" src="images/stuck-at-sea-logo.png" alt="Stuck at Sea logo">
             </a>
-            <ul>
+            <ul class="ul-centered-children">
                 <li>
-                    <a href="survival.html">Survival</a>
+                    <a class="nav-link" href="survival.html">Survival</a>
                 </li>
                 <li>
-                    <a href="rival.html">Rival</a>
+                    <a class="nav-link" href="rival.html">Rival</a>
                 </li>
             </ul>
         </nav>
@@ -27,25 +27,36 @@
     
     <main>
         <h1>Rival</h1>
-        <img src="images/foggy-pirate-ship.webp" alt="Looking out a plane window">
-        <p class="narration-text">On your trusty boat you sail away from your island. In a way you feel sorry you have to leave. Mostly though you feel scared of what comes next, or is this excitement? After what feels like days you see a ship in the distance. If you can get their attention maybe they could feed you and take you home. You sail over there but before long you see that they have skulls on their sails. What do you do? (have a final decision that they make to either escape home or not)</p>
-    </main>
+        <div id="rival-grid">
+            <img id="rival-image" src="images/foggy-pirate-ship.webp" alt="Looking out a plane window">
+            <p id="rival-text" class="narration-text">On your trusty boat you sail away from your island. In a way you feel sorry you have to leave. Mostly though you feel scared of what comes next, or is this excitement? After what feels like days you see a ship in the distance. If you can get their attention maybe they could feed you and take you home. You sail over there but before long you see that they have skulls on their sails. What do you do? (have a final decision that they make to either escape home or not)</p>
+        </div>
+            </main>
     
     
-    <section>
+    <section class="choices">
         <!-- Keep in mind I might want to make this a radio button and depending on what you press a different story will play -->
         <h1>Choices</h1>
-        <a href="win-lose.html">Fight the pirates for their ship</a>
-        <a href="win-lose.html">Ask the kind men for a ride</a>
-        <a href="win-lose.html">Try to avoid the ship</a>
+        <ul class="ul-centered-children">
+            <li>
+                <a class="nav-link" href="win-lose.html">Fight the pirates for their ship</a>
+            </li>
+            <li>
+                <a class="nav-link" href="win-lose.html">Ask the kind men for a ride</a>
+            </li>
+            <li>
+                <a class="nav-link" href="win-lose.html">Try to avoid the ship</a>
+            </li>
+        </ul>
     </section>
 
 
     <footer>
-        <p>Copyright 2024</p>
-        <img class="socialmedia-icon" src="images/instagram-icon.png" alt="Instagram icon">
-        <img class="socialmedia-icon" src="images/linkedin-icon.png" alt="Linkedin icon">
-        <a href="site-plan.html">Site plan for Stuck at Sea</a>
+        <p>Stuck at Sea by Jason McGraw Copyright 2024</p>
+        <div class="social-media-box">
+            <a href="https://www.instagram.com/actual_npc/"><img class="socialmedia-icon" src="images/instagram-icon.png" alt="Instagram icon"></a>
+            <a href="https://www.linkedin.com/"><img class="socialmedia-icon" src="images/linkedin-icon.png" alt="Linkedin icon"></a>
+        </div>
     </footer>
 </body>
 </html>

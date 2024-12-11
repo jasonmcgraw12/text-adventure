@@ -46,12 +46,23 @@ nav{
     display: grid;
     grid-template-columns: 1fr 400px;
 }
+#rival-grid{
+    display: grid;
+    grid-template-rows: repeat(10, 65.75px);
+}
 #Arrival-image{
     width: 100%;
 }
 #Survival-image{
     width: 350px;
     margin: 0 auto;
+}
+#rival-image{
+    grid-row: 1/8;
+    grid-column: 1/2;
+    margin: 0 auto;
+    padding: 0 200px;
+    background: linear-gradient(to bottom, white, black);
 }
 h1{
     text-align: center;
@@ -68,6 +79,16 @@ h1{
 .narration-text{
     font-family: "Shadows Into Light", "Dancing Script", 'Times New Roman';
     padding: 20px;
+}
+#rival-text{
+    z-index: 2;
+    margin: 0 50px;
+    background-color: #9de0c7;
+    grid-row: 7/11;
+    grid-column: 1/2;
+    box-shadow: hsl(158, 19%, 51%) 5px 10px;
+    max-width: 600px;
+    margin: 0 auto;
 }
 h2{
     margin-top: 0;
