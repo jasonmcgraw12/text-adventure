@@ -97,7 +97,7 @@ h1{
     grid-column: 1/2;
     box-shadow: hsl(158, 19%, 51%) 5px 10px;
     max-width: 600px;
-    margin: 0 auto;
+    margin: 0 auto 20px auto;
 }
 h2{
     margin-top: 0;
